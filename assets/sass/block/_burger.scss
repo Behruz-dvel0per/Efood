@@ -1,0 +1,91 @@
+.burger{
+  backdrop-filter: blur(777px);
+  background: linear-gradient(134deg, rgba(239, 239, 239, 0.21) 0%, rgba(239, 239, 239, 0.42) 100%);
+    &_text{
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 36px;
+        text-align: center;
+        padding-top: 109px;
+        text-transform: capitalize;
+        color: #363853;
+        mark{
+            color: #ff7a50;
+            background-color: transparent;
+        }
+    }
+  &_menu{
+     margin-top: 54px;
+
+    &_pizza{
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+        border-radius: 8px;
+        width: 210px;
+        padding-top: 13px;
+        height: 70px;
+        background: #fff;
+        &_img svg path{
+            fill: black;
+        }
+        &_text{
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 20px;
+            color: #363853;
+            padding-top: 5px;
+        }
+        
+    }
+  }
+}
+.burger_menu_pizza{
+    border-radius: 8px;
+    width: 210px;
+    height: 70px;
+    background-color: #fff;
+}
+.burger_menu_pizza:hover{
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.12);
+    background: #ff7a50;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 40px 10px 40px 10px;
+    transform: scale(1.1);
+}
+.burger_menu_pizza:hover svg path{
+    fill: #fff;
+}
+.burger_menu_pizza:hover p{
+    color: #fff;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ background-color: #F5F6F9;
+}
+.burger_box:hover{
+  transform: scale(1.1);
+  transition: 1s;
+  cursor: pointer;
+}
+.burger_box:active{
+  transform: scale(0.9);
+}
+.swiper-slide img {
+  display: block;
+  width: 208px;
+  height: 279px;
+  object-fit: cover;
+}

@@ -1,0 +1,62 @@
+.reg{
+
+    &_box{
+        border-radius: 20px;
+        width: 1170px;
+        height: 312px;
+        background: #ff7a50;
+    }
+    &_text{
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 40px;
+        text-align: center;
+        color: #fff;
+        padding-top: 59px;
+    }
+    &_title{
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 187%;
+        text-align: center;
+        color: #fff;
+        opacity: 0.8;
+        padding-top: 12px;
+    }
+    &_email{
+        border-radius: 70px;
+        margin-top: 31px;
+        width: 838px;
+        height: 78px;
+        box-shadow: 10px 24px 54px 0 rgba(0, 0, 0, 0.07);
+        background: #fff;
+    }
+    &_enter{
+        opacity: 0.9;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 167%;
+        text-align: center;
+        color: #363853;
+        padding-top: 24px;
+    }
+    &_btn{
+        background: #ff7a50;
+        border-radius: 70px;
+        padding-top: 14px;
+        padding-left: 33px;
+        width: 191px;
+        height: 58px;
+        &_text{
+            font-family: var(--font-family);
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 150%;
+            text-align: center;
+            color: #fff;
+        }
+    }
+    
+}

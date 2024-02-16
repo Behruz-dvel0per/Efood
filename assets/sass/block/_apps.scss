@@ -1,0 +1,31 @@
+.apps{
+    background: #f9faff;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    &_text{
+
+        &_title{
+            font-family: var(--font-family);
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 139%;
+            padding-top: 119px;
+            text-transform: capitalize;
+            color: #363853;
+            mark{
+                color: #ff7a50;
+                background-color: transparent;
+            }
+        }
+        &_it{
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 150%;
+            color: #363853;
+            opacity: 0.9;
+            padding-top: 30px;
+        }
+    }
+}

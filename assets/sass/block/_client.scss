@@ -1,0 +1,47 @@
+.client{
+
+    &_text{
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 36px;
+        letter-spacing: 0.01em;
+        color: #363853;
+        padding-top: 100px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 60px;
+        mark{
+            background-color: transparent;
+            color: #ff7a50;
+        }
+    }
+    &_otziv{
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 225%;
+        letter-spacing: 0.03em;
+        color: #363853;
+        padding-top: 133px;
+    }
+    &_name{
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 20px;
+        color: #ff7a50;
+        padding-top: 54px;
+    }
+    &_lov{
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        color: #aaa;
+        padding-top: 18px;
+    }
+    &_slide:hover svg path{
+        stroke: #ff7a50;
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: 1s;
+    }
+}

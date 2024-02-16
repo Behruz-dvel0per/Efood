@@ -1,0 +1,33 @@
+.footer{
+
+    &_location{
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 200%;
+        color: #37383d;
+    }
+    &_menu{
+
+        li a{
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 272%;
+            letter-spacing: 0.01em;
+            color: #37383d;
+            
+        }
+        li a:hover{
+            color: orange;
+        }
+        li p{
+            font-family: var(--font-family);
+            font-size: 18px;
+            line-height: 272%;
+            letter-spacing: 0.01em;
+            color: #37383d;
+            font-weight: 500;
+        }
+    }
+}
